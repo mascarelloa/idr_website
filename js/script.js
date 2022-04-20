@@ -46,6 +46,17 @@ $(document).ready(function () {
 });
 
 
+function toggleMenu() {
+  $("#hamburgerMenu").toggleClass("collapsed");  
+  $(".aa-mobile-overlay").animate({
+        height: "toggle",
+        opacity: "toggle"
+    }, 300);
+}
+
+
+
+
 
 // jQuery(document).on('ready', function() {
 //   jQuery(".center").slick({
