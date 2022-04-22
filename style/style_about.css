@@ -1,0 +1,18 @@
+.about-intro {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+    margin-top:50px;
+    margin-bottom:50px;
+
+}
+
+.about-intro-content {
+    max-width:700px;
+    margin-right:50px;
+}
+
+.visual-1 img {
+    max-width:450px;
+}
