@@ -1,18 +1,171 @@
 .about-intro {
     display:flex;
-    flex-direction:row;
+    flex-direction:column;
     align-items:center;
     justify-content:space-between;
     margin-top:50px;
     margin-bottom:50px;
+    max-width:1000px;
 
 }
 
-.about-intro-content {
-    max-width:700px;
-    margin-right:50px;
+.about-intro p {
+    margin-top:50px;
+    margin-bottom:50px;
 }
+
 
 .visual-1 img {
-    max-width:450px;
+    max-width:350px;
+    padding-left:50px;
 }
+
+.visual-2 img {
+    max-width:350px;
+    padding-right:100px;
+}
+
+
+
+.about-body {
+    margin-top:50px;
+    margin-bottom:50px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+
+}
+
+
+.desc {
+    max-width:800px;
+}
+
+.desc p, .team-container p {
+    font-size:16px;
+    font-weight:500;
+    line-height:30px;
+
+}
+
+.desc h5:after {
+    content: ""; 
+    display: block; 
+    margin: 0;
+    margin-bottom:20px; 
+    width: 8%; 
+    padding-top: 20px; 
+    border-bottom: 4px solid; 
+}
+
+
+.team-container {
+    margin-top:100px;
+    margin-bottom:100px;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    margin-top:50px;
+  }
+  .team-member {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+
+  .team-member {
+    /* display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center; */
+  }
+  .team-member h5 {
+      font-size:18px;
+  }
+
+  .team-member p {
+      font-size:14px;
+      line-height:25px;
+  }
+
+  .team-member img {
+      max-width:250px;
+      margin-bottom:20px;
+  }
+
+
+
+
+
+
+
+
+
+  @media only screen and (max-width: 1280px) {
+   
+    .visual-1 img {
+        max-width:325px;
+    }
+
+    .visual-2 img {
+        max-width:325px;
+    }
+
+  }
+
+
+  @media only screen and (max-width: 1150px) {
+   
+    .visual-1 img {
+        max-width:225px;
+
+    }
+
+    .visual-2 img {
+        max-width:225px;
+    }
+
+  }
+
+
+  @media only screen and (max-width: 1000px) {
+    .team-grid {
+        grid-template-columns: auto auto auto;
+        
+      }
+
+
+  }
+
+
+  @media only screen and (max-width: 900px) {
+   .visual-1, .visual-2 {
+       display:none;
+   }
+
+  }
+
+
+  @media only screen and (max-width: 750px) {
+    .team-grid {
+        grid-template-columns: auto auto;
+        
+      }
+
+
+  }
+
+
+  @media only screen and (max-width: 500px) {
+    .team-grid {
+        grid-template-columns: auto;
+        
+      }
+
+
+  }

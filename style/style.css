@@ -17,6 +17,7 @@
 
 .html {
     width:100%;
+    scroll-behavior: smooth;
 }
 
 main {
@@ -35,6 +36,14 @@ main {
     background-color:var(--main-dark);
 }
 
+#pink-text {
+    color:var(--main-pink);
+}
+
+#white-text {
+    color:white;
+}
+
 section {
     /* position:realtive; */
     display:flex;
@@ -44,7 +53,7 @@ section {
 }
 
 .container {
-    /* max-width:1700px; */
+    max-width:1700px;
     /* padding-left:50px;
     padding-right:50px;
     margin:0px; */
@@ -128,6 +137,14 @@ p {
 
 span {
     color:var(--main-pink);
+}
+
+#inverse-text {
+    color:white;
+}
+
+big {
+    font-weight:600;
 }
 
 
