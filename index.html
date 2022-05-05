@@ -16,6 +16,11 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js"></script>
 
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
+
   <script src="https://kit.fontawesome.com/35ce3098c9.js" crossorigin="anonymous"></script>
 
   <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
@@ -27,6 +32,7 @@
 
 
   <header>
+   <div class="header-container">
     <div class="logo">
       <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 475.44 102">
         <defs>
@@ -100,7 +106,6 @@
     </div>
 
 
-
     <div class="aa-hamburger-menu collapsed" id="hamburgerMenu" onclick="toggleMenu()">
       <span class="aa-icon-bar"></span>
       <span class="aa-icon-bar"></span>
@@ -119,6 +124,8 @@
 
       </ul>
     </div>
+
+  </div>
   </header>
 
 
@@ -161,10 +168,10 @@
   <section class="pinkvibe">
 
     
-      <div class="about-blurbs">
+      <div class="about-blurb-container">
 
         <h3>Staffing companies are a dime a dozen. <br>
-          Here's what we're all about...
+          Here's what <i>we're</i> all about...
         </h3>
 
         <div class="blurbs">
@@ -232,7 +239,7 @@
 
 
 
-  <section id="decoration">
+  <section>
 
 
       <h3><span>Data Doesn't Lie...</span></h3>
@@ -349,8 +356,8 @@
 
 
 
-  <h3><span>What They're Saying...</span></h3>
-  <div class="testimonials">
+  
+  <!-- <div class="testimonials"><h3><span>What They're Saying...</span></h3>
   <div class="slide-wrap">
 
     <div class="slideshow">
@@ -424,7 +431,47 @@
 
 
 
+  </div> -->
+
+
+
+  <section id="max-width">
+    
+    <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">
+      <div class="slide-content"><p><big><i>“I cannot say enough wonderful things about Destiny. She is kind, thoughtful, and empowering. I am still blown away by her selflessness and authenticity that she brings to every interaction I have with her. She truly cares about her work, business, and most importantly her people. She was able to equip me with a fool-proof set of tools that was instrumental in me receiving an offer at the company that had my eyes set on. Destiny – you are one in a million! I am so lucky to have her in my corner!”</i></big></p><br><br>
+      <h5>Amy</h5>
+      <p>SaaS Enterprise Account Executive</p></div></div>
+    <div class="swiper-slide">
+      <div class="slide-content"><p><big><i>"Angela was amazing!! She was super helpful in my search for a new role. She was able to help me
+      fine tune my resume and provided coaching to help during the interview process. She was their to hold my
+      hand through the process. Anyone who has gone through finding a new role has experienced an issue along
+      the way, not with Angela at the It's Destiny Recruiting team."</i></big></p><br><br>
+<h5>Daniel</h5>
+<p>Sales Development Representative</p></div></div>
+    <div class="swiper-slide">
+      <div class="slide-content"><p><big><i>"Hannah is one of the most authentic recruiters I've ever worked with - full stop. Her knowledge is
+      unmatched and it's clear she cares deeply about her clients having a succinct job-seeking process.
+      Hannah prepares, motivates, and champions those she works with. Her communication skills are incredible
+      and I felt at ease every step of the way. She is fantastic in this industry and I would recommend her to
+      anyone looking for new opportunities in the workforce."</i></big></p><br><br>
+<h5>Danielle</h5>
+<p>Sales Development Representative</p></div></div>
+    ...
   </div>
+
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+
+</div>
+  </section>
 
 
 
@@ -521,6 +568,7 @@
 
   <script src="https://use.fontawesome.com/529bd5658e.js"></script>
   <script src='https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js'></script>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 
   <script src="js/script.js"></script>
 

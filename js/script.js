@@ -242,3 +242,23 @@ slideshow.addEventListener("touchmove", moveTouch, false);
 //   });
     
 // });
+
+
+
+
+const swiper = new Swiper('.swiper', {
+  spaceBetween: 50,
+  centeredSlides: true,
+  autoplay: {
+    delay: 5000,
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
