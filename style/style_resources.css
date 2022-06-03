@@ -1,0 +1,207 @@
+.resources-intro {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    margin-top:50px;
+    margin-bottom:100px;
+    max-width:1000px;
+
+}
+
+.visual-3 img{
+    max-width:250px;
+    }
+
+.resources-intro h1 {
+    font-size:70px;
+    text-align:center;
+}
+
+.resources-intro p {
+    margin-bottom:20px;
+}
+
+
+
+.visual-3 img{
+max-width:250px;
+}
+
+
+.resources-container {
+    max-width:1500px;
+    margin-top:50px;
+    margin-bottom:50px;
+    }
+.resources-body {
+    margin-top:50px;
+    margin-bottom:50px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+
+}
+
+
+.interview-content {
+    /* display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:25px; */
+    max-width:1500px;
+    
+}
+
+.interview-step {
+width:100%;
+margin-bottom:35px;
+
+}
+
+
+.accordian-containter {
+    border:1px solid #eeeeee;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color:#f2f2f2;
+    color: var(--main-dark);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    transition: 0.4s;
+    border:none;
+    outline:none;
+    font-family:montserrat;
+    font-size:20px;
+    font-weight:600;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: var(--main-pink);
+    
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
+
+  .panel p {
+      font-size:16px;
+      font-weight:400;
+      margin-top:10px;
+  }
+
+  .accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+
+
+
+
+
+
+
+
+
+
+
+  /**
+ * Tabs
+ */
+.tabs {
+	display: flex;
+	flex-wrap: wrap; 
+    margin-top:25px;
+    
+}
+.tabs label {
+	order: 1; 
+	display: block;
+	padding: 1rem 2rem;
+	margin-right: 0.2rem;
+	cursor: pointer;
+  background: var(--main-pink);
+  font-family:montserrat;
+  font-weight: bold;
+  transition: background ease 0.2s;
+}
+
+.tabs .tab {
+  order: 99; 
+  flex-grow: 1;
+	width: 100%;
+	display: none;
+  padding: 1rem;
+  background: #f3f3f3;
+}
+.tabs input[type="radio"] {
+	display: none;
+}
+.tabs input[type="radio"]:checked + label {
+	background: #f3f3f3
+}
+.tabs input[type="radio"]:checked + label + .tab {
+	display: block;
+}
+
+@media (max-width: 45em) {
+  .tabs .tab,
+  .tabs label {
+    order: initial;
+  }
+  .tabs label {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 0.2rem;
+  }
+}
+
+.tab li {
+  font-family: montserrat;
+  
+}
+
+.tab h5 {
+  color:var(--main-dark);
+  margin-top:15px;
+  margin-bottom:15px;
+}
+
+/**
+ * Generic Styling
+*/
+/* body {
+  background: #eee;
+  min-height: 100vh;
+	box-sizing: border-box;
+	padding-top: 10vh;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+  line-height: 1.5;
+  max-width: 60rem;
+  margin: 0 auto;
+  font-size: 112%;
+} */
+

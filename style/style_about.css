@@ -1,3 +1,8 @@
+.html {
+    width:100%;
+    scroll-behavior: smooth;
+}
+
 .about-intro {
     display:flex;
     flex-direction:column;
@@ -11,6 +16,7 @@
 
 .about-intro h1 {
     font-size:70px;
+    text-align:center;
 }
 .about-intro p {
     /* margin-top:50px; */
@@ -91,6 +97,7 @@
 
   .team-member h5 {
       font-size:18px;
+      color:var(--main-dark);
   }
 
   .team-member p {
@@ -142,15 +149,6 @@
   }
 
 
-  @media only screen and (max-width: 1000px) {
-    .team-grid {
-        grid-template-columns: auto auto auto;
-        
-      }
-
-
-  }
-
 
   @media only screen and (max-width: 900px) {
    .visual-1, .visual-2 {
@@ -160,21 +158,4 @@
   }
 
 
-  @media only screen and (max-width: 750px) {
-    .team-grid {
-        grid-template-columns: auto auto;
-        
-      }
-
-
-  }
-
-
-  @media only screen and (max-width: 500px) {
-    .team-grid {
-        grid-template-columns: auto;
-        
-      }
-
-
-  }
+ 

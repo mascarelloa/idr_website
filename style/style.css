@@ -56,6 +56,7 @@ section {
     min-height:200px;
     padding-left: 10%;
     padding-right: 10%;
+
 }
 
 
@@ -161,6 +162,8 @@ h5{
     font-weight:800;
 }
 
+
+
 p {
     font-family: montserrat;
     font-size:18px;
@@ -238,7 +241,7 @@ header {
 }
 
 .logo svg {
-    height:60px;
+    height:45px;
 }
 
 
@@ -346,7 +349,7 @@ header {
     max-width:375px;
     min-height:275px;
     text-align:center;
-    padding:40px;
+    padding:20px;
 }
 
 
@@ -686,7 +689,33 @@ font-size:16px;
       color: var(--main-pink);
   }
 
+.review-buttons {
+    display:inline;
+    text-align:center;
+}
 
+.review-buttons button {
+    width:300px;
+}
+  .review {
+    padding:25px;
+    /* margin-left:20px;
+    margin-right:20px; */
+    margin-bottom:40px;
+    box-shadow: 0 0 20px rgb(230, 230, 230);
+    border-radius:20px;
+    text-align:center;
+
+}
+
+.review p {
+    font-size:14px;
+    margin:0;
+}
+
+.review h5 {
+    margin:0;
+}
 /* ---------- Hamburger Menu ---------- */
 
 .hide {
